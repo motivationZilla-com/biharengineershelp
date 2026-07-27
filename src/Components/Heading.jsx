@@ -1,6 +1,14 @@
+import { useState } from 'react';
 import style from '../css/heading.module.css';
 import subjectData from './subject.jsx';
+
 function Heading() {
+  // store and filter data
+  const [serData, setserData] = useState('');
+  const filterData = subjectData.filter((item) => {
+    return item.subject.toLowerCase().includes(serData.toLowerCase());
+  });
+
   return (
     <div className={style.all}>
       <div className={style.main}>
@@ -8,14 +16,12 @@ function Heading() {
           <div className={style.logo}></div>
 
           <h2 className={style.title}>Bihar Enginners Help</h2>
-          <hr className={style.titleHr}/>
+          <hr className={style.titleHr} />
           <button className={style.btn}>Youtube</button>
           <button className={style.btn}>LinkdIn</button>
         </div>
 
         <div className={style.power}>
-          <p style={{color:"red",fontSize:"13px"}}>⚠️ This Website Is Under Construction.</p>
-          
           <h1>Empoweering Engineers</h1>
           <h2> For a Bright Future</h2>
           <br />
@@ -71,11 +77,53 @@ function Heading() {
             <option value="">Web Desining</option>
           </select>
         </div>
-        <input type="text" placeholder="Search..." className={style.search} />
+
+        <div
+          style={{
+            display: 'flex',
+          }}
+        >
+          <span
+            style={{
+              width: '10px',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginTop: '5px',
+              position: 'relative',
+              left: '15px',
+              fontSize: '20px',
+            }}
+          >
+            🔎
+          </span>
+          <input
+            type="text"
+            placeholder="Search..."
+            className={style.search}
+            value={serData}
+            onChange={(e) => setserData(e.target.value)}
+          />
+          <span
+            style={{
+              width: '10px',
+              alignItems: 'center',
+              justifyContent: 'center',
+              marginTop: '3px',
+              position: 'relative',
+              right: '30px',
+              fontSize: '20px',
+              cursor:"pointer"
+            }}
+
+            onClick={()=>setserData("")}
+          >
+            ❌
+          </span>
+        </div>
       </span>
 
       <span className={style.subjectMainCard}>
-        {subjectData.map((data, index) => {
+        {filterData.map((data, index) => {
           return (
             <div className={style.subjectCard} key={index}>
               <div
