@@ -12,9 +12,9 @@ let subjectData = [
   },
 
   {
-    subject: 'Javascript',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+    subject: 'C.O.A',
+    link: 'https://drive.google.com/drive/folders/1SsEX8FD7yV-j8xJKnRI-J63leQXI0SPE?usp=drive_link',
+    bg: 'https://noteslink.in/wp-content/uploads/2024/11/coa-400x210.webp',
   },
   
   {
