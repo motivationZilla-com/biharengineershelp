@@ -1,0 +1,18 @@
+.body {
+  width: 100vw;
+  height: 100vh;
+  background-image: radial-gradient(
+    125% 125% at 50% 10%,
+    #ffffff 40%,
+    #009af9 100%
+  );
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  /* justify-content: center; */
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  scrollbar-width: none; /*iska use scroll bar ka jo toll hota hai usko hide karne ke liye use karte hai*/
+}
