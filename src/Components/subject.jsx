@@ -6,9 +6,9 @@ let subjectData = [
   },
 
   {
-    subject: 'Java',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://th.bing.com/th/id/OIP.xeoinwuNrrPBMdn8mcm7NwHaHa?w=174&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+    subject: 'Formal Language & Automata',
+    link: 'https://drive.google.com/drive/folders/1Gs2bbvnLZ2qAHw0adcSoZhDNWmIHOTBW?usp=drive_link',
+    bg: 'https://miro.medium.com/v2/resize:fit:1400/1*zsl_EZjxoRrrgwZnQ2M2ag.jpeg',
   },
 
   {
