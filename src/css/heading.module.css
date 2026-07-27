@@ -149,6 +149,8 @@ hr {
   border: none;
   outline: none;
   padding: 10px;
+  font-size: 18px;
+  padding-left: 35px;
   background-color: #f8f9f994;
   box-shadow: 3px 3px 5px rgba(172, 173, 173, 0.58);
 }
