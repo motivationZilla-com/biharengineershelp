@@ -9,12 +9,13 @@ function Heading() {
 
           <h2 className={style.title}>Bihar Enginners Help</h2>
           <hr className={style.titleHr}/>
-          <p style={{color:"red",fontSize:"13px"}}>⚠️ This Website Is Under Construction.</p>
           <button className={style.btn}>Youtube</button>
           <button className={style.btn}>LinkdIn</button>
         </div>
 
         <div className={style.power}>
+          <p style={{color:"red",fontSize:"13px"}}>⚠️ This Website Is Under Construction.</p>
+          
           <h1>Empoweering Engineers</h1>
           <h2> For a Bright Future</h2>
           <br />
