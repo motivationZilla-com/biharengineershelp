@@ -29,11 +29,11 @@ let subjectData = [
     bg: 'https://hubcomputers.co.uk/wp-content/uploads/2024/12/what-are-the-main-components-of-computer-hardware.jpg',
   },
 
-  // {
-  //   subject: 'python',
-  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-  //   bg: 'https://th.bing.com/th/id/OIP.VgcDbZtvRThnSNbJyvtTvQHaHa?w=167&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
-  // },
+  {
+    subject: 'Laser:(Physics)',
+    link: 'https://drive.google.com/file/d/19EWBK1WrCiL-cDI7jZQtqbxxlPA9mi50/view?usp=sharing',
+    bg: 'https://d3i71xaburhd42.cloudfront.net/cafa205a46eff140c14e4dc0e5ddbe01b627cadd/106-Figure5.1-1.png',
+  },
   
   // {
   //   subject: 'Javascript',
