@@ -12,7 +12,7 @@ let subjectData = [
   },
 
   {
-    subject: 'COA-Compuetr Organization & Architecture',
+    subject: 'COA-Compuetr Organization &..',
     link: 'https://drive.google.com/drive/folders/1SsEX8FD7yV-j8xJKnRI-J63leQXI0SPE?usp=drive_link',
     bg: 'https://noteslink.in/wp-content/uploads/2024/11/coa-400x210.webp',
   },
@@ -23,35 +23,35 @@ let subjectData = [
     bg: 'https://studyhub.org.uk/wp-content/uploads/2021/03/SQL-Masterclass-SQL-For-Data-Analytics.jpg',
   },
   
-  {
-    subject: 'Javascript',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  },
+  // {
+  //   subject: 'Javascript',
+  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
+  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  // },
 
-  {
-    subject: 'python',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://th.bing.com/th/id/OIP.VgcDbZtvRThnSNbJyvtTvQHaHa?w=167&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
-  },
+  // {
+  //   subject: 'python',
+  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
+  //   bg: 'https://th.bing.com/th/id/OIP.VgcDbZtvRThnSNbJyvtTvQHaHa?w=167&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3',
+  // },
   
-  {
-    subject: 'Javascript',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  },
+  // {
+  //   subject: 'Javascript',
+  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
+  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  // },
   
-  {
-    subject: 'Javascript',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  },
+  // {
+  //   subject: 'Javascript',
+  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
+  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  // },
   
-  {
-    subject: 'Javascript',
-    link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  },
+  // {
+  //   subject: 'Javascript',
+  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
+  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  // },
   
 ];
 
