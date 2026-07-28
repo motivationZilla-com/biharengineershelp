@@ -18,7 +18,7 @@ function Heading() {
           <h2 className={style.title}>Bihar Enginners Help</h2>
           <hr className={style.titleHr} />
           <button className={style.btn}>Youtube</button>
-          <button className={style.btn}>LinkdIn</button>
+          <button className={style.btn}>LinkedIn</button>
         </div>
 
         <div className={style.power}>
