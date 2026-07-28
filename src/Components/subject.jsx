@@ -35,11 +35,11 @@ let subjectData = [
     bg: 'https://d3i71xaburhd42.cloudfront.net/cafa205a46eff140c14e4dc0e5ddbe01b627cadd/106-Figure5.1-1.png',
   },
   
-  // {
-  //   subject: 'Javascript',
-  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  // },
+  {
+    subject: 'Optics:(Physics)',
+    link: 'https://drive.google.com/file/d/13c6VxlT395_WRW2reMOyyEXcxst-hN84/view?usp=drive_link',
+    bg: 'https://cdn.britannica.com/35/158035-131-334426D9/Prism-illustration.jpg',
+  },
   
   // {
   //   subject: 'Javascript',
