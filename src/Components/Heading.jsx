@@ -22,6 +22,7 @@ function Heading() {
         </div>
 
         <div className={style.power}>
+          <p style={{ color: 'red' }}>⚠️ This Website is Under Construction.</p>
           <h1>Empoweering Engineers</h1>
           <h2> For a Bright Future</h2>
           <br />
