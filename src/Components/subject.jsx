@@ -23,11 +23,11 @@ let subjectData = [
     bg: 'https://studyhub.org.uk/wp-content/uploads/2021/03/SQL-Masterclass-SQL-For-Data-Analytics.jpg',
   },
   
-  // {
-  //   subject: 'Javascript',
-  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
-  // },
+  {
+    subject: 'IT Workshop',
+    link: 'https://drive.google.com/drive/folders/1L_ovvo_U8ITgYWhdx6a4JTMWF7pRx8XY?usp=sharing',
+    bg: 'https://hubcomputers.co.uk/wp-content/uploads/2024/12/what-are-the-main-components-of-computer-hardware.jpg',
+  },
 
   // {
   //   subject: 'python',
