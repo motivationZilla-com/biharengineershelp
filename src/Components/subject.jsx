@@ -12,7 +12,7 @@ let subjectData = [
   },
 
   {
-    subject: 'COA-Compuetr Organization &..',
+    subject: 'COA',
     link: 'https://drive.google.com/drive/folders/1SsEX8FD7yV-j8xJKnRI-J63leQXI0SPE?usp=drive_link',
     bg: 'https://noteslink.in/wp-content/uploads/2024/11/coa-400x210.webp',
   },
