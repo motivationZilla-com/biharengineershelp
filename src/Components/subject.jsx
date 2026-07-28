@@ -41,17 +41,32 @@ let subjectData = [
     bg: 'https://cdn.britannica.com/35/158035-131-334426D9/Prism-illustration.jpg',
   },
   
+  {
+    subject: 'Java',
+    link: 'https://drive.google.com/file/d/1LAPkNB_yT_0ZcTqfZcs9eSlqlx_09gqs/view?usp=drive_link',
+    bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  },
+  
+  {
+    subject: 'Java For Professionals',
+    link: 'https://drive.google.com/file/d/1Rc-1AuajF78YQbXLPumCuldl9a7Lwu5I/view?usp=drive_link',
+    bg: 'https://public-files.gumroad.com/ahnob53rlt3y7vdtbln4zuahf6bu',
+  },
+  
   // {
-  //   subject: 'Javascript',
-  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  //   subject: 'Java For Professionals',
+  //   link: 'https://drive.google.com/file/d/1Rc-1AuajF78YQbXLPumCuldl9a7Lwu5I/view?usp=drive_link',
+  //   bg: 'https://public-files.gumroad.com/ahnob53rlt3y7vdtbln4zuahf6bu',
   // },
   
   // {
-  //   subject: 'Javascript',
-  //   link: 'https://drive.google.com/file/d/1QLEwKuS0VA0C0RpNdR-wEtCkUsDMlLTu/view?usp=drive_link',
-  //   bg: 'https://assets-global.website-files.com/6377ac1a39ff1e65214224e5/64d26ed75e39c4c591e01c3d_64c96a772785e6db2d21f850_java-logo-transparent-free-png.png',
+  //   subject: 'Java For Professionals',
+  //   link: 'https://drive.google.com/file/d/1Rc-1AuajF78YQbXLPumCuldl9a7Lwu5I/view?usp=drive_link',
+  //   bg: 'https://public-files.gumroad.com/ahnob53rlt3y7vdtbln4zuahf6bu',
   // },
+
+
+
   
 ];
 
