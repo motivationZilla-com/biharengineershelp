@@ -1,12 +1,11 @@
-import { useState } from 'react';
-import style from '../css/heading.module.css';
-import subjectData from './subject.jsx';
+import { useState } from "react";
+import style from "../css/heading.module.css";
+import subjectData from "./subject.jsx";
 import Team from "./Team.jsx";
-
 
 function Heading() {
   // store and filter data
-  const [serData, setserData] = useState('');
+  const [serData, setserData] = useState("");
   const filterData = subjectData.filter((item) => {
     return item.subject.toLowerCase().includes(serData.toLowerCase());
   });
@@ -20,11 +19,11 @@ function Heading() {
           <h2 className={style.title}>Bihar Enginners Help</h2>
           <hr className={style.titleHr} />
           <button className={style.btn}>Youtube</button>
-          <button className={style.btn}>LinkedIn</button>
+          <button className={style.btn}>LinkdIn</button>
         </div>
 
         <div className={style.power}>
-          <p style={{ color: 'red' }}>⚠️ This Website is Under Construction.</p>
+          <p style={{ color: "red" }}>⚠️ This Website is Under Construction.</p>
           <h1>Empoweering Engineers</h1>
           <h2> For a Bright Future</h2>
           <br />
@@ -83,18 +82,18 @@ function Heading() {
 
         <div
           style={{
-            display: 'flex',
+            display: "flex",
           }}
         >
           <span
             style={{
-              width: '10px',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginTop: '5px',
-              position: 'relative',
-              left: '15px',
-              fontSize: '20px',
+              width: "10px",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "5px",
+              position: "relative",
+              left: "15px",
+              fontSize: "20px",
             }}
           >
             🔎
@@ -108,17 +107,16 @@ function Heading() {
           />
           <span
             style={{
-              width: '10px',
-              alignItems: 'center',
-              justifyContent: 'center',
-              marginTop: '3px',
-              position: 'relative',
-              right: '30px',
-              fontSize: '20px',
-              cursor:"pointer"
+              width: "10px",
+              alignItems: "center",
+              justifyContent: "center",
+              marginTop: "3px",
+              position: "relative",
+              right: "30px",
+              fontSize: "20px",
+              cursor: "pointer",
             }}
-
-            onClick={()=>setserData("")}
+            onClick={() => setserData("")}
           >
             ❌
           </span>
@@ -133,15 +131,15 @@ function Heading() {
                 className={style.innerSujCard}
                 style={{
                   backgroundImage: `url(${data.bg})`,
-                  backgroundPosition: 'center',
-                  backgroundSize: 'cover',
+                  backgroundPosition: "center",
+                  backgroundSize: "cover",
                 }}
               ></div>
               <h2
                 style={{
-                  textOverflow: 'ellipsis',
-                  overflow: 'hidden',
-                  whiteSpace: 'nowrap',
+                  textOverflow: "ellipsis",
+                  overflow: "hidden",
+                  whiteSpace: "nowrap",
                 }}
               >
                 {data.subject}
@@ -154,22 +152,26 @@ function Heading() {
         })}
       </span>
 
-
       {/* something are change start.... */}
 
       <Team />
 
       {/* something are change end.... */}
+
       
+
+      {/* footer code start */}
       <hr className={style.footerHr} />
       <hr className={style.footerHr} />
 
       <div className={style.footer}>
         <h4>© 2026 BiharEnginnersHelp. All rights reserved.</h4>
         <i>
-          <h4 style={{ textDecoration: 'itelic' }}>Empoweering Engineers</h4>
+          <h4 style={{ textDecoration: "itelic" }}>Empoweering Engineers</h4>
         </i>
       </div>
+
+      {/* footer code end */}
     </div>
   );
 }
