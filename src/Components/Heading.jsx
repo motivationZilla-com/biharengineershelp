@@ -154,7 +154,7 @@ function Heading() {
 
       {/* something are change start.... */}
 
-      <Team />
+      {/* <Team /> */}
 
       {/* something are change end.... */}
 
