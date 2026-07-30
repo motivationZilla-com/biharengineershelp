@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+}
+.teamMember {
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 30px;
+  margin-bottom: 60px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.member {
+  width: 180px;
+  height: 220px;
+  margin: 10px;
+  /* background-color: rgb(231, 246, 255); */
+  box-shadow: 0 3px 5px rgba(172, 173, 173, 0.58);
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.member:hover {
+  transform: scale(1.08);
+  transition-duration: 0.3s;
+  transition-property: all;
+}
+.head {
+  width: 210px;
+  height: 250px;
+  background-image: url("../assets/raj.jpg");
+}
+
+.member1 {
+  background-image: url("../assets/him.jpg");
+}
+
+.member2 {
+  background-image: url("../assets/shivam.jpg");
+}
+
+.head {
+  background-image: url("../assets/raj.jpg");
+}
+
+.member3 {
+  background-image: url("../assets/mithun.jpg");
+}
+
+.member4 {
+  background-image: url("../assets/jitesh.jpg");
+}
+
+@media (max-width: 1483px) {
+  .head {
+    width: 180px;
+    height: 220px;
+  }
+}
+
+@media (max-width: 627px) {
+  .member {
+    width: 120px;
+    height: 150px;
+    margin: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .member {
+    width: 100px;
+    height: 130px;
+    margin: 5px;
+  }
+  .member2 {
+  background-image: url("../assets/raj.jpg");
+}
+.head{
+  background-image: url("../assets/shivam.jpg");
+
+}
+}
