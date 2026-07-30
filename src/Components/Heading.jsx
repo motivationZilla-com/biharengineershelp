@@ -152,6 +152,13 @@ function Heading() {
         })}
       </span>
 
+
+      {/* something are change start.... */}
+
+      <Team />
+
+      {/* something are change end.... */}
+      
       <hr className={style.footerHr} />
       <hr className={style.footerHr} />
 
