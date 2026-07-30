@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import style from '../css/heading.module.css';
 import subjectData from './subject.jsx';
+import Team from "./Team.jsx";
+
 
 function Heading() {
   // store and filter data
