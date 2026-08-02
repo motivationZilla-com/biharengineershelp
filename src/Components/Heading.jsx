@@ -22,8 +22,7 @@ function Heading() {
           <button className={style.btn} onClick={()=>window.open("https://www.linkedin.com/in/rajkumar123456/","_blank")} >LinkdIn</button>
         </div>
 
-        <div className={style.power}>  <button className={style.btn} onClick={()=>window.open("https://www.youtube.com/@Rajkitutorial","_blank")}>Youtube</button>
-          <button className={style.btn} onClick={()=>window.open("https://www.linkedin.com/in/rajkumar123456/","_blank")} >LinkdIn</button>
+        <div className={style.power}>
           <p style={{ color: "red" }}>⚠️ This Website is Under Construction.</p>
           <h1>Empoweering Engineers</h1>
           <h2> For a Bright Future</h2>
