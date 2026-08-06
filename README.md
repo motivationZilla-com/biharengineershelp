@@ -1,174 +1,163 @@
-# 🎓 Bihar Engineers Help
+# 🚀 Bihar Engineers Help
 
-> A free educational platform for engineering students to access notes, previous year questions, syllabus, internship updates, coding resources, placement preparation, and career guidance.
+A modern **React-based educational platform** designed for engineering students to access study materials, coding resources, placement preparation, internship updates, and the latest technology content.
 
-🌐 **Live Website:** https://techhexa.github.io/biharengineershelp/
-
----
-
-## 📖 About
-
-**Bihar Engineers Help** is an educational platform created to help engineering students, especially students studying under **Bihar Engineering University (BEU)** and other technical universities.
-
-The platform provides high-quality academic resources, programming tutorials, career guidance, and placement preparation materials in one place.
-
-Our mission is to make engineering education more accessible, organized, and student-friendly.
+🌐 **Live Demo:** https://techhexa.github.io/biharengineershelp/
 
 ---
 
-## ✨ Features
+# 📚 About the Project
 
-* 📚 Semester-wise Notes
+**Bihar Engineers Help** is a student-focused educational platform built using **React**. It aims to simplify engineering education by providing organized learning resources in one place.
+
+The platform helps students prepare for semester exams, improve programming skills, stay updated with internships, and enhance their career opportunities.
+
+---
+
+# ✨ Features
+
+* 📖 Semester-wise Notes
 * 📝 Previous Year Question Papers
-* 📖 BEU Syllabus
+* 📚 BEU Study Resources
 * 💻 Programming Tutorials
-* 🌐 Web Development Resources
-* 🤖 AI & Technology Articles
+* 🌐 Web Development Articles
+* 🤖 AI & Technology Blogs
 * 🎯 Placement Preparation
 * 💼 Internship Updates
-* 📢 Tech News & Career Guidance
-* 📱 Responsive Design
-* ⚡ Fast Loading Website
-* 🔍 Search-Friendly Structure
+* 📱 Fully Responsive Design
+* ⚡ Fast Performance
+* 🔍 SEO Friendly
 
 ---
 
-## 🛠️ Built With
+# 🛠️ Tech Stack
 
+* ⚛️ React
+* React Router
+* JavaScript (ES6+)
 * HTML5
 * CSS3
-* JavaScript
 * Bootstrap
+* Vite
 * GitHub Pages
 
 ---
 
-## 📂 Project Structure
+# 📁 Project Structure
 
 ```text
-biharengineershelp/
-│
-├── index.html
-├── article.html
-├── contact.html
-├── about.html
+src/
 ├── assets/
-│   ├── css/
-│   ├── js/
-│   ├── images/
-│
-├── articles/
-├── favicon/
-└── README.md
+├── components/
+├── pages/
+├── layouts/
+├── hooks/
+├── App.jsx
+├── main.jsx
+└── index.css
+
+public/
+
+package.json
+vite.config.js
+README.md
 ```
 
 ---
 
-## 🚀 Getting Started
+# 🚀 Installation
 
-Clone the repository:
+Clone the repository
 
 ```bash
 git clone https://github.com/TechHexa/biharengineershelp.git
 ```
 
-Open the project folder:
+Go to the project directory
 
 ```bash
 cd biharengineershelp
 ```
 
-Run locally:
+Install dependencies
 
-Simply open `index.html` in your browser or use **VS Code Live Server**.
+```bash
+npm install
+```
+
+Start the development server
+
+```bash
+npm run dev
+```
+
+Build for production
+
+```bash
+npm run build
+```
+
+Preview the production build
+
+```bash
+npm run preview
+```
 
 ---
 
-## 🎯 Target Audience
+# 🎯 Purpose
 
-* Engineering Students
-* BEU Students
-* B.Tech Aspirants
-* Diploma Students
-* Web Developers
-* Coding Beginners
-* Placement Aspirants
+The goal of this project is to create a centralized learning platform where engineering students can find:
 
----
-
-## 📱 Website Preview
-
-Visit the live website:
-
-👉 https://techhexa.github.io/biharengineershelp/
+* Academic Notes
+* Coding Tutorials
+* Placement Resources
+* Internship Opportunities
+* Career Guidance
+* Technology Articles
 
 ---
 
-## 🤝 Contributing
+# 🌍 Live Website
 
-Contributions are welcome.
+https://techhexa.github.io/biharengineershelp/
 
-1. Fork this repository
+---
+
+# 🤝 Contributing
+
+Contributions are welcome!
+
+1. Fork the repository
 2. Create a new branch
-
-```bash
-git checkout -b feature-name
-```
-
 3. Commit your changes
-
-```bash
-git commit -m "Added new feature"
-```
-
-4. Push to GitHub
-
-```bash
-git push origin feature-name
-```
-
+4. Push to your branch
 5. Open a Pull Request
 
 ---
 
-## 💡 Future Improvements
+# 📄 License
 
-* Student Login System
-* Discussion Forum
-* PDF Notes Download
-* Dark Mode
-* AI Chat Assistant
-* Mock Test Platform
-* Job Portal
-* Resume Builder
-* College Predictor
-* Mobile Application
+This project is licensed under the MIT License.
 
 ---
 
-## 📄 License
-
-This project is licensed under the **MIT License**.
-
----
-
-## 👨‍💻 Developer
+# 👨‍💻 Developer
 
 **Raj Kumar**
 
-Founder of **TechHexa**
+Founder — **TechHexa**
 
-* 🌐 Website: https://techhexa.github.io/biharengineershelp/
-* 💻 GitHub: https://github.com/TechHexa
+GitHub: https://github.com/TechHexa
 
 ---
 
 ## ⭐ Support
 
-If you found this project useful:
+If you like this project, please:
 
-* ⭐ Star this repository
-* 🍴 Fork it
-* 📢 Share it with other engineering students
+* ⭐ Star the repository
+* 🍴 Fork the project
+* 📢 Share it with fellow engineering students
 
-Together, let's make engineering education accessible for everyone.
+Made with ❤️ using React.
